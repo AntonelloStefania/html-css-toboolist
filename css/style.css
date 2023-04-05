@@ -79,19 +79,20 @@ body{
     line-height:2.5;
 }
 /* SIMBOLI CHECK E UNCHECK */
-.check{
-    border:1px solid green;
+.check,.uncheck{
+    border:1px solid;
     border-radius: 50%;
-    padding: 0 3px 0 3px;
-    color: green;
+    padding: 0 3px ;
     margin-right: 10px;
 }
+.check{
+    border-color: green;
+    color: green;
+}
+    
 .uncheck{
-    border:1px solid rgb(255, 51, 36);
-    border-radius: 50%;
-    padding: 0 3px 1px 3px;
+    border-color: rgb(255, 51, 36);
     color: rgb(255, 54, 54);
-    margin-right: 10px;
 }
 /* FINE SIMBOLI CHECK UNCHECK */
 /* TOPIC COLORATI */
